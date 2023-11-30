@@ -1,3 +1,8 @@
+#!/usr/bin/env node
+// 👆 Used to tell Node.js that this is a CLI tool
+
+"use strict";
+
 const { blueBright, bgBlack, yellowBright } = require("colorette");
 
 const log = (message) => console.log(bgBlack(red(message)));
