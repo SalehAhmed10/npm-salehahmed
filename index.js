@@ -1,4 +1,4 @@
-import { blueBright, red, bgBlack, yellowBright } from "colorette";
+const { blueBright, bgBlack, yellowBright } = require("colorette");
 
 const log = (message) => console.log(bgBlack(red(message)));
 
