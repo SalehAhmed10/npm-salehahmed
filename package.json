@@ -1,0 +1,35 @@
+{
+  "name": "salehahmed",
+  "version": "1.0.4",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "bin": {
+    "salehahmed": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalehAhmed10/npm-salehahmed.git"
+  },
+  "keywords": [
+    "salehahmed",
+    "Saleh Ahmed",
+    "SalehAhmed10",
+    "business card",
+    "e-card"
+  ],
+  "author": "Saleh Ahmed <dev.salehahmed@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SalehAhmed10/npm-salehahmed/issues"
+  },
+  "homepage": "https://github.com/SalehAhmed10/npm-salehahmed#readme",
+  "dependencies": {
+    "colorette": "^1.0.7",
+    "nodemon": "^3.0.1",
+    "table-layout": "^3.0.2"
+  }
+}
